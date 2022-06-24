@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>TicTacToe</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body>
+
+	<noscript>
+		<h2>
+			This page requires javaScript to function properly.
+		</h2>
+	</noscript>
+
+
+
+	<script>
+		document.write(`
+	<div class="notHostedInfo" style="margin: 2em; font-size:2rem;">
+
+		<h2>
+			To run properly, this file should be served locally using any http-server or sirv builtin server.
+		</h2>
+
+		<h3>
+			To serve with sirv:
+		</h3>
+		<ol>
+			<li>
+				Make sure you have <a href="https://nodejs.org/en/">Node.js</a> 16.15.0 or newer installed
+			</li>
+			<li>
+				Make sure you have npm 8.5.5 or newer installed
+			</li>
+			<li>
+				execute (in <a href="./../">directory with package.json</a>):
+				<code>
+							<pre>
+npm i
+npm run build
+npm run start
+							</pre>
+					</code>
+				and go to <a href="http://localhost:8080">http://localhost:8080</a>
+			</li>
+		</ol>
+
+	</div>
+	`);
+	</script>
+</body>
+
+</html>
